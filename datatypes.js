@@ -153,7 +153,7 @@ let b = false
 // it negates a boolean value
 
 
-console.log("------ NOT OPERATOR --------")
+// console.log("------ NOT OPERATOR --------")
 
 // console.log(true)
 // console.log(false)
@@ -199,12 +199,23 @@ let folaObj = {
 
 let fruitArray = ['apple', 'orange', 'banana', 'pear', 'coconut']
 
-console.log('items in this array ', fruitArray)
-fruitArray.pop()
-fruitArray.shift()
-fruitArray.push("Strawberry")
-fruitArray.unshift("Papaya")
-console.log('items in this array ', fruitArray)
+// console.log('items in this array ', fruitArray)
+// fruitArray.pop()
+// fruitArray.shift()
+// fruitArray.push("Strawberry")
+// fruitArray.unshift("Papaya")
+// console.log('items in this array ', fruitArray[0])
+// console.log('Number of fruits in my array ', fruitArray.length)
+// console.log( 'last item ', fruitArray[fruitArray.length-1])
+
+
+// console.log(fruitArray[fruitArray.length-1])
+
+fruitArray.map((fruit, i)=>{
+
+    // console.log(i +1 , ":" , fruit)
+
+})
 
 
 
@@ -212,3 +223,63 @@ console.log('items in this array ', fruitArray)
 
 
 
+
+// Objects
+
+
+console.log("------ OBJECTS --------")
+
+
+//  let Array = {
+//     length : 20,
+//     pop : function(){
+
+//     }
+//  }
+
+
+
+let folarinObject = {
+
+    firstName : 'Adefolarin',
+    age : 30,
+    sex : 'male',
+    occupation : "Mobile Developer / Instructor",
+    club : "Liverpool FC",
+    isMarried : false,
+    hobbies : ['playing basketball', "reading", 'travelling'],
+    introduction : function(){
+
+        console.log('my name is ', folarinObject.firstName, ' I am ', folarinObject.age, ' and I am a ', folarinObject.occupation)
+
+    }
+
+} 
+
+// console.log(folarinObject.firstName, folarinObject.age, folarinObject['isMarried'])
+
+folarinObject.favColor = 'red';
+folarinObject['favDish'] = 'Pounded yam'
+
+// delete folarinObject.hobbies
+
+// console.log(folarinObject.hobbies)
+
+folarinObject.introduction()
+
+
+
+
+// fruitArray.length 
+
+
+// console.log('adefolarin'.toUpperCase(), 'adefolarin'.length)
+
+
+
+// const String = {
+//     length : 10,
+//     toUpperCase : function(){
+        
+//     }
+// }
