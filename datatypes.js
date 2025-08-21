@@ -283,3 +283,5 @@ folarinObject.introduction()
         
 //     }
 // }
+// fav_sport=['basketball','soccer','tennis','handball']
+// fav_people=['Emeka','Faithfulness']
